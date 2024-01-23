@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+
+.calculator{
+    border: none;
+    border-radius: 10px;
+    padding: 20px ;
+    background-color: #000000;
+
+}
+
+.container .calculator .firstrow > input {
+    color: #000000;
+    background-color: #808080;;
+}
+.container .calculator .firstrow > input:hover {
+    background-color: #A0A0A0;;
+}
+
+
+.container form input{
+    font-size:20px ;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    color: #F2F2F2;
+    background-color:  #404040;
+    box-shadow:  0px 0px 5px #F2F2F2;
+
+}
+.container form input:hover{
+    background-color:  #333333;
+    
+}
+
+
+.container .calculator > input:last-child::after {
+    background-color: #FFA500;
+}
+
+.container .calculator .lo {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #FF7F00;
+}
+.container .calculator .lo:hover {
+    background-color: #FFA500; 
+}
+
+
+.container .calculator .zerobtn {
+    text-align: center;
+    padding-right: 1px;
+    margin-right: 2px;
+    border-radius: 20px;
+   width: 150px;
+   height: 60px; 
+}
+
+.container .displaybtn{
+    height: 80px;
+    margin-bottom: 30px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 310px;
+    display: flex;
+    justify-content: end;
+}
+
+.container .displaybtn input{
+    color: #F2F2F2;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+}
+
